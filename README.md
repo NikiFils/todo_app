@@ -1,16 +1,21 @@
-# pubspec
+# Планировщик дел (Todo App)
 
-A new Flutter project.
+Мое первое приложение на Flutter для управления задачами.
 
-## Getting Started
+## 🚀 Функционал
+* Добавление новых задач
+* Отметка задач как выполненных (с зачеркиванием)
+* Удаление задач
+* Сохранение данных локально (работает без интернета)
 
-This project is a starting point for a Flutter application.
+## 🛠️ Технологии
+* Flutter
+* Riverpod (управление состоянием)
+* Hive (локальная база данных)
+* UUID (генерация уникальных ID)
+* Intl (форматирование даты)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Как запустить
+1. Скачайте проект
+2. Выполните `flutter pub get`
+3. Запустите через `flutter run` (Chrome, Windows или эмулятор Android)
